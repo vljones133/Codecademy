@@ -1,0 +1,66 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  background-image: url("images/pattern.jpeg");
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  overflow-wrap: break-word;
+  padding: 50px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.green-header {
+  background-color: mediumspringgreen;
+}
+
+.red-header {
+  background-color: lightcoral;
+}
+
+.blue-header {
+  background-color: skyblue;
+}
+
+.img-left-text-right {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.image,
+.text {
+  flex: 1;
+  align-self: center;
+  padding: 20px;
+  min-width: 250px;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.price {
+  font-weight: bold;
+  color: blue;
+}
